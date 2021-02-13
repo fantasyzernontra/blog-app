@@ -1,0 +1,21 @@
+.container {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #cedcf2;
+  padding: 20px;
+}
+
+.container > div {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container input {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    line-height: 20px;
+    padding: 8px;
+    width: 80%;
+    font-size: 1.2rem;
+}

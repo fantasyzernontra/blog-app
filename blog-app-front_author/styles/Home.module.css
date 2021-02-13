@@ -1,0 +1,25 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.homeContainer > div:last-child {
+    margin-top: 100px;
+    flex-grow: 2;
+    padding: 100px;
+    text-align: end;
+}
+
+.homeContainer > div:last-child > div {
+    color: #4287f5;
+    font-size: 5rem; 
+    font-weight: bold;
+}
+
+.homeContainer > div:last-child > div:last-child {
+    margin-top: 30px;
+    font-size: 3rem;
+    color: black;
+}

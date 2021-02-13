@@ -1,0 +1,53 @@
+.navcontainer {
+  padding: 30px;
+  background-color: #cedcf2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navcontainer > div {
+  pointer-events: none;
+  margin-top: 120px;
+  font-weight: bold;
+  color: #4287f5;
+  font-size: 2.5rem;
+}
+
+.navcontainer li {
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  transition: font-weight 0.2s;
+}
+
+.navcontainer li:hover {
+  font-weight: bold;
+}
+
+.navcontainer ul > li {
+  padding-top: 50px;
+}
+
+.navcontainer ul > li.active {
+  font-weight: bold;
+}
+
+.navcontainer ul > div {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 8px;
+  background-color: #4287f5;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s linear, color .2s linear;
+}
+
+.navcontainer ul > div:hover {
+  background-color: #8bb2f1;
+  color: #6b6a6a;
+}

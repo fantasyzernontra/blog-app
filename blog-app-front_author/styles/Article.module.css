@@ -1,0 +1,24 @@
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  padding: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 420px;
+}
+
+.container > div:last-child {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3.5rem;
+  transition: transform 1.2s linear;
+  text-align: center;
+}
+
+.container:hover {
+    transform: scale(1.005);
+}
